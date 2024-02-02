@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teleprompter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <textarea id="paragraphInput" placeholder="Enter your paragraph here..."></textarea>
+        <button id="startRecordingBtn">Start Recording</button>
+        <div id="recordingContainer">
+            <video id="recordedVideo" controls></video>
+            <div id="highlightedText"></div>
+        </div>
+        <!-- Add the download button -->
+    <button id="downloadBtn" style="display: none;">Download Video</button>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
